@@ -6,9 +6,9 @@ import { Provider } from "react-redux";
 const App = () => {
   return (
     <Provider store={store}>
-      <PersistGate loading={null} persistor={persistor}>
+      {/* <PersistGate loading={null} persistor={persistor}> */}
         <Routes />
-      </PersistGate>
+      {/* </PersistGate> */}
     </Provider>
   );
 };
